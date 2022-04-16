@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 const path = require('path')
 module.exports = defineConfig({
-  transpileDependencies: true,
+  transpileDependencies: false,
   pages: {
     index: {
       // 修改项目的入口文件
@@ -12,13 +12,13 @@ module.exports = defineConfig({
   },
   chainWebpack: config => {
     config.module
-    .rule('js')
-    .include.add(path.resolve(__dirname, 'packages')).end()
-    .use('babel')
-    .loader('babel-loader')
-    .tap(options => {
+      .rule('js')
+      .include.add(path.resolve(__dirname, 'packages')).end()
+      .use('babel')
+      .loader('babel-loader')
+      .tap(options => {
       // 修改选项
-      return options
-    })
+        return options
+      })
   }
 })

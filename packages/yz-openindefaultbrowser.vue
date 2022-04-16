@@ -24,9 +24,8 @@ export default {
     height: 100vh;
     z-index: 999;
     position: fixed;
-    background-color: rgba($color: #000000, $alpha: .5);
+    background-color: rgba($color: #000000, $alpha: .3);
     .header {
-        background-color: white;
         width: 100%;
         margin: auto;
         padding: 10px;
@@ -53,6 +52,7 @@ export default {
             height: 100%;
             background-image: url('./images/openInDefaultBrowser.png');
             background-size: 100% 100%;
+            margin-left: 30px;
         }
     }
 }
