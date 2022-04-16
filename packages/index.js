@@ -1,13 +1,13 @@
 import OpenInDefaultBrowser from './yz-openindefaultbrowser.vue'
 
 const components = [
-    OpenInDefaultBrowser
+  OpenInDefaultBrowser
 ]
 
 export default {
-    install: (Vue) => {
-        components.forEach(component => {
-            Vue.component(component.name, component)
-        })
-    }
+  install: (Vue) => {
+    components.forEach(component => {
+      Vue.component(component.name, component)
+    })
+  }
 }

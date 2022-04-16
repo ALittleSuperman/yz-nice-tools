@@ -15,7 +15,7 @@
 </template>
 <script>
 export default {
-    name: 'OpenInDefaultBrowser'
+  name: 'OpenInDefaultBrowser'
 }
 </script>
 <style scoped lang="scss">
