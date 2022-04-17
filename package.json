@@ -1,6 +1,6 @@
 {
   "name": "yz-nice-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "main": "dist/yz-nice-tools.umd.min.js",
   "scripts": {

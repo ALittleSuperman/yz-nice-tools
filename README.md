@@ -1,9 +1,8 @@
 # yz-nice-tools
 
-> 简单描述这个项目是什么。
+> vue2工具集
 
-[![NPM Version][npm-image]][https://www.npmjs.com/package/yz-nice-tools]
-[![Downloads Stats][npm-downloads]][https://www.npmjs.com/package/yz-nice-tools]
+[![](https://img.shields.io/badge/npm-v1.0.2-blue)](https://www.npmjs.com/package/yz-nice-tools)
 
 - open in default browser
     - 移动端在各大厂商的app中无法唤醒app，使用此中间页跳转
@@ -18,7 +17,7 @@
 请确保已经安装node
 
 ```
-Give examples
+node -v
 ```
 
 ### Installation 安装 📦
