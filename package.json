@@ -1,8 +1,8 @@
 {
-  "name": "nice-tools",
-  "version": "0.1.0",
+  "name": "yz-nice-tools",
+  "version": "1.0.1",
   "private": false,
-  "main": "dist/nice-tools.umd.min.js",
+  "main": "dist/yz-nice-tools.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
