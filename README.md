@@ -45,7 +45,7 @@ vue.use(yz-niceTools)
 
 ## Release History 
 
-* 1.0.1
+* 1.0.2
     * init open in default browser
 ## Authors 关于作者
 
