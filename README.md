@@ -53,6 +53,3 @@ vue.use(yz-niceTools)
 
 查看更多关于这个项目的贡献者，请阅读 [contributors](#) 
 
-## License 授权协议
-
-这个项目 MIT 协议， 请点击 [LICENSE.md](LICENSE.md) 了解更多细节。
