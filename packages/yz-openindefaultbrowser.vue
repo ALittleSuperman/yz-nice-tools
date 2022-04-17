@@ -24,12 +24,17 @@ export default {
     height: 100vh;
     z-index: 999;
     position: fixed;
-    background-color: rgba($color: #000000, $alpha: .3);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    background-color: rgba($color: grey, $alpha: .3);
     .header {
         width: 100%;
         margin: auto;
         padding: 10px;
-        height: 60px;
+        height: 10vh;
         box-sizing: border-box;
         display: flex;
         .left {
