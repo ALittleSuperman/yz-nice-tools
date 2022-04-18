@@ -1,16 +1,9 @@
 <template>
     <div class="wapper">
         <div class="header">
-            <div class="left">
-                <div class="title">
-                    点击打开
-                </div>
-                <div class="desc">
-                    点击右上角----
-                </div>
-            </div>
             <div class="right"></div>
         </div>
+        <slot name="content"></slot>
     </div>
 </template>
 <script>
@@ -29,35 +22,19 @@ export default {
     right: 0;
     left: 0;
     overflow: auto;
-    background-color: rgba($color: grey, $alpha: .3);
+    background-color: rgba($color: #000000, $alpha: .3);
     .header {
         width: 100%;
         margin: auto;
-        padding: 10px;
-        height: 10vh;
         box-sizing: border-box;
         display: flex;
-        .left {
-            height: 100%;
-            flex: 1;
-            .title {
-                color: white;
-                font-weight: 600;
-                font-size: 14px;
-            }
-            .desc {
-                color: white;
-                font-weight: 400;
-                font-size: 10px;
-                margin-top: 10px;
-            }
-        }
+        justify-content: end;
         .right {
-            flex: 1;
-            height: 100%;
-            background-image: url('./images/openInDefaultBrowser.png');
+            width: 226px;
+            height: 127px;
+            background-image: url('./images/open-in-browser.png');
             background-size: 100% 100%;
-            margin-left: 30px;
+            margin-right: 23px;
         }
     }
 }
